@@ -12,6 +12,5 @@ public class LeapYear {
         } else {
             return "Not valid year";
         }
-
     }
 }
