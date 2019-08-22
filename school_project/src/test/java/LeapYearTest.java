@@ -32,43 +32,30 @@ public class LeapYearTest {
     @Test
     public void checkYear2008() {
         assertEquals("Leap", leapYear.isLeapYear(2008));
-
-
     }
 
     @Test
     public void checkYear2100() {
         assertEquals("Regular", leapYear.isLeapYear(2100));
-
-
     }
 
     @Test
     public void checkNegativeYear() {
         assertEquals("Not valid year", leapYear.isLeapYear(-2000));
-
-
     }
 
     @Test
     public void checkNegative1899() {
         assertEquals("Not valid year", leapYear.isLeapYear(1899));
-
-
     }
 
     @Test
     public void checkNegative() {
         assertEquals("Not valid year", leapYear.isLeapYear(3000));
-
-
     }
 
     @AfterAll
     public static void end() {
-
         System.out.println("Tesing is finished");
-        leapYear = null;
     }
-
 }
