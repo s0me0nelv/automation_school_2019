@@ -25,4 +25,9 @@ public class RangeTest {
     public void checkIfSecondRangeSmallerWithSameZero() {
         assertEquals(1, range.doTwoRangesHaveSameValues(0, 10, -5, 0));
     }
+
+    @Test
+    public void checkIfSInvalidNumbers() {
+        assertEquals(0, range.doTwoRangesHaveSameValues(1, 0, -5, 0));
+    }
 }

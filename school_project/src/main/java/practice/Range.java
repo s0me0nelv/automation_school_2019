@@ -12,7 +12,7 @@ public class Range {
             if (i >= c && i <= d) {
                 count++;
             }
-        }
+        } if (a > b) {return 0;}
         return count;
     }
 }
