@@ -9,11 +9,10 @@ public class Range {
         int count = 0;
 
         for (int i = a; i <= b; i++) {
-           if(i >= c && i <= d) {
-               count++;
-           }
-        } return count;
-
-
+            if (i >= c && i <= d) {
+                count++;
+            }
+        }
+        return count;
     }
 }
