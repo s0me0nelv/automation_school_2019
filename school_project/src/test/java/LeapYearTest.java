@@ -45,17 +45,17 @@ public class LeapYearTest {
     }
 
     @Test
-    public void checkNegative1899() {
+    public void checkSmallestYear() {
         assertEquals("Not valid year", leapYear.isLeapYear(1899));
     }
 
     @Test
-    public void checkNegative() {
+    public void checkHighestYear() {
         assertEquals("Not valid year", leapYear.isLeapYear(3000));
     }
 
     @AfterAll
     public static void end() {
-        System.out.println("Tesing is finished");
+        System.out.println("Testing is finished");
     }
 }
