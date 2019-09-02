@@ -1,3 +1,4 @@
+package self_work;
 public class Teacher {
 
     public void setAverageScore(Pupil pupil, int score) {
