@@ -1,3 +1,4 @@
+package self_work;
 public class Pupil {
 
     private String name;
